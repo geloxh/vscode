@@ -1,0 +1,84 @@
+<!-- 
+ - type ' ! ' into an html file in VS Code and press enter, to get this HTML skeleton:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+</body>
+</html>
+
+
+
+-->
+
+<!-- 
+ - To create a custom snippet for this HTML boilerplate with additional tags:
+
+ - In VS Code, go to File > Preferences > User Snippets or Ctrl + shift + P and type 'snippets'.
+ - Open Configure User Snippets and select 'html.json'.
+ - Add the following snippet to the file:
+
+ {
+	"HTML boilerplate": {
+		"prefix": "!!",
+		"body": [
+			"<!DOCTYPE html>",
+			"<html lang=\"en\">",
+			"<head>",
+			"    <meta charset=\"UTF-8\">",
+			"    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+			"    <meta name=\"description\" content=\"$1\">",
+			"    <link rel=\"stylesheet\" href=\"css/styles.css\">",
+			"    <title>${2:Document}</title>",
+			"</head>",
+			"<body>",
+			"    <header>",
+			"     $3",
+			"    </header>",
+			"    <main>",
+			"     $4",
+			"    </main>",
+			"    <footer>",
+			"     $5",
+			"    </footer>",
+			"    <script src=\"js/scripts.js\"></script>",
+			"     $0",
+			"</body>",
+			"</html>"
+		],
+		"description": "HTML5 Boilerplate with custom tags"
+	}
+}
+
+ - Save the file. Now, typing '!!' in an HTML file and pressing enter will insert the custom boilerplate.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+     
+    </header>
+    <main>
+     
+    </main>
+    <footer>
+     
+    </footer>
+    <script src="js/scripts.js"></script>
+     
+</body>
+</html>
