@@ -1,0 +1,3 @@
+
+### Custom Properties (CSS Variables)
+CSS Variables, also known as custom properties, are the ultimate solution for maintaining your styling in a sustainable way. With variables, you can define reusable values across your stylesheets, which means you can easily update design elements such as colors, spacing, and typography. This promotes consistency and simplifies maintenance, making it easier to make global changes. Get ready to streamline your styling with the power of CSS Variables!
