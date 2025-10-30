@@ -1,0 +1,55 @@
+/* Define custom properties on the root elemnt for global scope */
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --background-color: #ecf0f1;
+    --box-color: #ffffff;
+    --text-color: #2c3e50;
+    --gap-size: 1rem;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 2rem;
+}
+
+.div {
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+/* Flexbox Container Styes */
+.container {
+    display: flex;
+    gap: var(--gap-size);
+    background-color: var(--primary-color);
+    padding: var(--gap-size);
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+/* CSS Grid Container Styles */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--gap-size);
+    background-color: var(--secondary-color);
+    padding: var(--gap-size);
+    border-radius: 8px;
+}
+
+/* Styles for the boxes inside both containers */
+.box {
+    background-color: var(--box-color);
+    padding: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 4px;
+
+}
